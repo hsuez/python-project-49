@@ -4,6 +4,10 @@ import random
 
 
 def main():
+    #можно было бы воспользоваться собственным модулем brain_games
+    #для этого в начало файла нужен импорт import brain_games
+    #далее сама реализация...
+    #brain_games.main()
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
