@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 import sys
-
-sys.path.append("/Users/macbook/Desktop/projects/python-project-49/brain_games")
-
-import cli
+import brain_games.scripts.cli_backup
 
 def main():
     print("Welcome to the Brain Games!")
-    cli.welcome_user()
+    brain_games.scripts.cli_backup.welcome_user()
 
 
 if __name__ == "__main__":

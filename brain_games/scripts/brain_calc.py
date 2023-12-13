@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
 from random import randint
-import brain_games
+import brain_games.scripts.brain_games
 import prompt
 import sys
-
-sys.path.append("/Users/macbook/Desktop/projects/python-project-49/brain_games")
-
-import cli
-
+import brain_games.scripts.cli_backup
 
 def calculation():
-    brain_games.main()
+    brain_games.scripts.brain_games.main()
     print("What is the result of the expression?")
     n = 0
     flag = True
@@ -34,7 +30,7 @@ Correct answer was \'{correct_answer}\'.')
             flag = False
             break
     if flag:
-        print(f'Congratulations, {cli.name}!')
+        print(f'Congratulations, {brain_games.scripts.cli_backup.name}!')
     else:
         print('Let\'s try again!')
 
