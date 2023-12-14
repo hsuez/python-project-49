@@ -8,3 +8,5 @@
 https://asciinema.org/a/URWimBt8r2d9xj2mbqtWZ8zgI link on tutorial how to install packages and you his.
 
 https://asciinema.org/a/5C6a1tpXLe3iQgZQlJM5a3CJP link on tutorial how to install brain-progression games.
+
+https://asciinema.org/a/aZNUtV12iglqflO02GSLNbUIx link on tutorial how to install brian-prime games.
