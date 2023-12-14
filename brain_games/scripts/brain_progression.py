@@ -11,8 +11,8 @@ def main():
     n = 1
     flag = True
     while n < 4:
-        step, a1, an = randint(1, 5), randint(1, 20), randint(1, 8)
-        arr = [a1 + step * i for i in range(1, 10)]
+        step, a1, an = randint(1, 6), randint(1, 20), randint(1, 9)
+        arr = [a1 + step * i for i in range(1, 11)]
         print('Question: ', end="")
         for i in arr:
             if i == arr[an]:
